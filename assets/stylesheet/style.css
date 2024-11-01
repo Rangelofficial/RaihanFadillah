@@ -1,0 +1,241 @@
+/* style.css */
+/* Kontainer playlist */
+/* Media Queries untuk tampilan layar kecil (misalnya, HP) */
+
+@media (max-width: 769px) {
+ .img-thumbnail {
+    width: 150px;
+  }
+
+  .nama h4 {
+    font-size: 20px;
+  }
+
+  .nama h5 {
+    font-size: 15px;
+  }
+
+  .toggleSlide {
+    transform: translateX(-85px);
+  }
+
+  .initial {
+    transform: translateX(-15px);
+  }
+
+  .buttonToggle {
+    display: inline;
+    margin-top: 8px;
+    padding: 0 8px;
+  }
+
+  /* Menyembunyikan elemen secara default */
+  .nav-item-item {
+    display: none;
+  }
+
+  .offcanvas-body ul {
+    list-style-type: none;
+  }
+
+  .offcanvas-body a {
+    color: black;
+  }
+
+  .all-body-cover {
+    margin-top: 200px;
+  }
+
+  .firstContainer {
+    margin-top: -75px;
+  }
+
+  .waves {
+    margin-top: 150px;
+    margin-bottom: 70px;
+  }
+
+  .wavesss {
+    margin-bottom: -25px;
+  }
+
+  .botWaves {
+    margin-top: -5px;
+  }
+
+  .wavesContact {
+    margin-bottom: -5px;
+  }
+
+  .subNameHeading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    padding-bottom: 0;
+  }
+
+  .achive {
+    margin-top: -350px;
+    margin-bottom: 30px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .article-container-firstRow,
+  .article-container-secondRow,
+  .article-container-thirdRow {
+    width: 220px;
+    height: 180px;
+    overflow: hidden;
+    position: relative;
+    font-family: "Sofia Sans Semi Condensed", sans-serif;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .article-img-holder-firstRow,
+  .article-img-holder-secondRow,
+  .article-img-holder-thirdRow {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 0.7s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+  }
+
+  .article-img-holder-thirdRow {
+    font-size: 30px; /* Font size khusus untuk row ketiga */
+  }
+
+  .fourthContainer {
+    margin-top: 370px;
+    padding-bottom: 20px;
+  }
+
+  .fivethContainer {
+    margin-top: 0;
+    padding-bottom: 20px;
+  }
+
+  .contactMe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+  }
+}
+.playlist-iner {
+    width: 90%;                    /* Lebar kontainer menggunakan 90% dari lebar viewport */
+    max-width: 500px;              /* Lebar maksimum kontainer */
+    padding: 20px;                /* Ruang di dalam kontainer */
+    border: 2px solid #333;       /* Border kotak */
+    border-radius: 8px;           /* Sudut melengkung */
+    background-color: #ffffff;    /* Warna latar belakang kontainer */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Bayangan kotak */
+    text-align: center;           /* Rata tengah isi kontainer */
+    margin: 0 auto;               /* Menjaga kontainer di tengah dengan margin otomatis */
+    
+}
+
+/* Judul lagu */
+.song-title {
+    font-size: 18px;              /* Ukuran font judul lagu */
+    margin: 10px 0;               /* Jarak di atas dan bawah judul */
+    font-weight: bold;            /* Ketebalan font */
+    color: #333;                  /* Warna teks judul lagu */
+}
+
+/* Tombol */
+button {
+    padding: 10px 20px;          /* Jarak di dalam tombol */
+    font-size: 16px;             /* Ukuran font tombol */
+    border: none;                /* Tanpa border */
+    border-radius: 4px;          /* Sudut melengkung tombol */
+    background-color: #007BFF;   /* Warna latar belakang tombol */
+    color: white;                /* Warna teks tombol */
+    cursor: pointer;             /* Pointer saat hover */
+}
+
+button:hover {
+    background-color: #0056b3;   /* Warna latar belakang tombol saat hover */
+}
+
+/* Pemutar audio */
+audio {
+    width: 100%;                  /* Memastikan pemutar audio menggunakan lebar penuh kontainer */
+    border: 2px solid #007BFF;    /* Border di sekitar pemutar audio dengan warna yang sama dengan tombol */
+    border-radius: 4px;          /* Sudut melengkung pada border pemutar audio */
+}
+
+/* Media query untuk layar dengan lebar maksimal 768px (tablet dan ponsel) */
+@media (max-width: 768px) {
+    .song-title {
+        font-size: 16px;         /* Ukuran font yang lebih kecil pada ponsel */
+    }
+
+    button {
+        padding: 8px 16px;      /* Jarak di dalam tombol pada ponsel */
+        font-size: 14px;        /* Ukuran font tombol pada ponsel */
+        
+    }
+    .btn-black {
+            background-color: #000;
+            color: #fff;
+            
+        }
+        .btn-black:hover {
+            background-color: #333;
+        }
+        .modal-content {
+            background-color: #fff;
+        }
+  .custom-margin {
+    margin-bottom: 20px; /* Atur jarak sesuai kebutuhan */
+  }
+
+  .custom-padding {
+    padding-top: 30px; /* Atur jarak sesuai kebutuhan */
+#1497fc  }
+}
+
+@keyframes gradientAnimation {
+            0% {
+                background-position: 0% 0%;
+            }
+            50% {
+                background-position: 100% 100%;
+            }
+            100% {
+                background-position: 0% 0%;
+            }
+        }
+
+        .modal-body.rangel {
+            background: linear-gradient(45deg, #191b02, #1d3b36, #5aebf5);
+            background-size: 300% 300%;
+            animation: gradientAnimation 5s ease infinite;
+            color: #fff; /* Untuk memastikan teks terlihat jelas di latar belakang yang berwarna */
+            padding: 20px;
+        }
+        .text-center.bawah {
+            text-align: center;
+            font-size: 10px;
+            font-weight: bold;
+            animation: colorChange 3s infinite;
+        }
+
+        @keyframes colorChange {
+            0% { color: #ffffff; }
+            75% { color: #171703; }
+            100% { color: #ffffff; }
+        }
